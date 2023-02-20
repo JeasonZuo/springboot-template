@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jeasonzuo</groupId>
-	<artifactId>ssmp</artifactId>
+	<artifactId>springboot-template</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>

@@ -1,13 +1,13 @@
 package com.jeasonzuo.controller;
 
-import org.springframework.stereotype.Controller;
+import com.jeasonzuo.utils.ResponseResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
     @GetMapping("/")
-    public String homePage() {
-        return "Home page";
+    public ResponseResult homePage() {
+        return ResponseResult.success("Home page");
     }
 }
